@@ -40,6 +40,7 @@ function handleChange(event) {
 	const value = event.target.value
 
 	handleStyle[name](value)
+	showCss()
 }
 
 function showCss() {
